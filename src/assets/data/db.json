@@ -1,0 +1,91 @@
+{
+  "product": [
+    { "id": 1, 
+      "productName": "Party Wear",
+      "categoryId":1,
+      "descriptions":"Description For Shirt",
+      "price":300,
+      "is_available":true,
+      "productImg":"http://localhost:4200/assets/s1.jpg",
+      "rating": 4.5,
+      "review": 150,
+      "vendor_name":"abc shop",
+      "warranty":1
+    },
+    { "id": 2, 
+      "productName": "Formal Shirt",
+      "categoryId":1,
+      "descriptions":"Description For Shirt ",
+      "price":200,
+      "is_available":true,
+      "productImg":"http://localhost:4200/assets/s2.jpg",
+      "rating": 3,
+      "review": 150,
+      "vendor_name":"ayc shop",
+      "warranty":1
+    },
+    { "id": 3, 
+      "productName": "Casual wear",
+      "categoryId":2,
+      "descriptions":"Description For Shirt here",
+      "price":400,
+      "is_available":true,
+      "productImg":"http://localhost:4200/assets/s3.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name":"adc shop",
+      "warranty":1
+    },
+    { "id": 4, 
+      "productName": "Lehenga",
+      "categoryId":2,
+      "descriptions":"Lehenga For Ladies",
+      "price":500,
+      "is_available":true,
+      "productImg":"http://localhost:4200/assets/s4.jpg",
+      "rating": 5,
+      "review": 150,
+      "vendor_name":"amc shop",
+      "warranty":1
+    },
+    { "id": 5, 
+      "productName": "Laptop",
+      "categoryId":2,
+      "descriptions":"Description For Laptop",
+      "price":600,
+      "is_available":true,
+      "productImg":"http://localhost:4200/assets/s5.jpg",
+      "rating": 5,
+      "review": 150,
+      "vendor_name":"agc shop",
+      "warranty":1
+    },
+    { "id": 6, 
+      "productName": "Lehenga for weddings",
+      "categoryId":3,
+      "descriptions":"Wedding Lehenga",
+      "price":700,
+      "is_available":true,
+      "productImg":"http://localhost:4200/assets/lehenga.jpg",
+      "rating": 5,
+      "review": 150,
+      "vendor_name":"ajc shop",
+      "warranty":1
+    }
+    
+  ],
+  "categories": [
+    { "id": 1, "categoryName":"Electronics"},
+    { "id": 2, "categoryName": "Men"},
+    { "id": 3, "categoryName": "Women"},
+    { "id": 4, "categoryName": "Home & Furniture"},
+    { "id": 5, "categoryName": "Baby & Kids"}
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
